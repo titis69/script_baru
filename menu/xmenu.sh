@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo -e "\e[36m╒════════════════════════════════════════════╕\033[0m"
-echo -e " \E[0;41;36m                 INFO SERVER            \E[0m"
+echo -e " \E[0;41;36m                 INFO SERVER                \E[0m"
 echo -e "\e[36m╘════════════════════════════════════════════╛\033[0m"
 uphours=`uptime -p | awk '{print $2,$3}' | cut -d , -f1`
 upminutes=`uptime -p | awk '{print $4,$5}' | cut -d , -f1`
