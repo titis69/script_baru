@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script by SL
+# mod Script by br
 
 xrayport="$(netstat -ntlp | grep -i xray | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
 nginxport="$(netstat -ntlp | grep -i nginx | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
@@ -18,7 +18,7 @@ clear
 echo -e "\e[0m                                                   "
 echo -e "\e[1;31m     [*][*][*]======================================[*][*][*]"
 echo -e "\e[0m                                                   "
-echo -e "\e[0;37m                    Auto Script MANTAP by SL    "
+echo -e "\e[0;37m                    Auto Script mod by br    "
 echo -e "\e[0;37m                    Port Yang Sedang Aktif      "
 echo -e "\e[0;37m                    Service Port                "
 echo -e "\e[0m                                                   "
@@ -38,7 +38,7 @@ echo -e "\e[0m                                                   "
 echo -e "\e[0;37m                    * Info                      "
 echo -e "\e[0;37m                    * Jika port nya tidak muncul"
 echo -e "\e[0;37m                    * berarti port nya mati/OFF "
-echo -e "\e[0;37m                    * MOD Menu by LIZSVR "
+echo -e "\e[0;37m                    * MOD Menu by Br"
 echo -e "\e[0m                                                   "
 echo -e "\e[1;31m     [*][*][*]======================================[*][*][*]"
 echo ""
