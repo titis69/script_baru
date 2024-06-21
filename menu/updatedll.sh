@@ -19,23 +19,23 @@ success="${GREEN} [OK] ${NC}"
 # Cek Domain
 source /var/lib/akbarstorevpn/ipvps.conf
 if [[ "$IP" = "" ]]; then
-    clear
-    echo -e " ${error1}Gagal Install-Update.."
-    sleep 2
-    exit 0
+	clear
+	echo -e " ${error1}Gagal Install-Update.."
+	sleep 2
+	exit 0
 else
-    clear
-    echo -e "${success}Installasi Update Menu..."
-    sleep 2
+	clear
+	echo -e "${success}Installasi Update Menu..."
+	sleep 2
 fi
 # ==========================================
 # link hosting kalian
-akbarvpn="https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu"
-akbarvpnn="https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/updated"
-akbarvpnnn="https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/updated"
+akbarvpn="https://raw.githubusercontent.com/titis69/script_baru/main/menu"
+akbarvpnn="https://raw.githubusercontent.com/titis69/script_baru/main/menu/updated"
+akbarvpnnn="https://raw.githubusercontent.com/titis69/script_baru/main/updated"
 cd
 rm -r updatedll
-wget -O updatedll "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/updatedll.sh"
+wget -O updatedll "https://raw.githubusercontent.com/titis69/script_baru/main/menu/updatedll.sh"
 rm -rf updatedll
 
 # hapus
@@ -47,17 +47,17 @@ rm -r updatedll
 #
 cd /usr/bin
 # update by SL
-wget -O xmenu "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/xmenu.sh"
-wget -O add-akun "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/add-akun.sh"
-wget -O updatedll "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/updatedll.sh"
-wget -O add-akun "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/add-akun.sh"
-wget -O delete-akun "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/delete-akun.sh"
+wget -O xmenu "https://raw.githubusercontent.com/titis69/script_baru/main/menu/xmenu.sh"
+wget -O add-akun "https://raw.githubusercontent.com/titis69/script_baru/main/menu/add-akun.sh"
+wget -O updatedll "https://raw.githubusercontent.com/titis69/script_baru/main/menu/updatedll.sh"
+wget -O add-akun "https://raw.githubusercontent.com/titis69/script_baru/main/menu/add-akun.sh"
+wget -O delete-akun "https://raw.githubusercontent.com/titis69/script_baru/main/menu/delete-akun.sh"
 wget -O certv2ray "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/xray/certv2ray.sh"
-wget -O restart-xray "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/restart-xray.sh"
-wget -O xmenu "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/xmenu.sh"
-wget -O auto-pointing "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/auto-pointing.sh"
-wget -O cek-port "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/cek-port.sh"
-wget -O xmenu "https://raw.githubusercontent.com/lizsvr/XRAY-MULTI/main/menu/xmenu.sh"
+wget -O restart-xray "https://raw.githubusercontent.com/titis69/script_baru/main/menu/restart-xray.sh"
+wget -O xmenu "https://raw.githubusercontent.com/titis69/script_baru/main/menu/xmenu.sh"
+wget -O auto-pointing "https://raw.githubusercontent.com/titis69/script_baru/main/menu/auto-pointing.sh"
+wget -O cek-port "https://raw.githubusercontent.com/titis69/script_baru/main/menu/cek-port.sh"
+wget -O xmenu "https://raw.githubusercontent.com/titis69/script_baru/main/menu/xmenu.sh"
 # Update menu
 wget -O menu "${akbarvpnn}/menu.sh"
 wget -O msettings "${akbarvpnn}/msetting.sh"
@@ -121,3 +121,4 @@ chmod +x xp
 clear
 echo -e "Update Selesai..."
 cd
+
