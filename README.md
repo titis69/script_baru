@@ -53,7 +53,18 @@
 ```
 sudo su
 ```
-
+```
+passwd
+```
+```
+nano /etc/ssh/sshd_config
+```
+# Seting permit
+- PermitRootLogin yes
+- PasswordAuthentication yes
+- ctrl+x
+- y
+- enter
 2. Update Dulu VPS NYA
 
 ```
